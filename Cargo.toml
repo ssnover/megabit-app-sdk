@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 embedded-graphics = "0.8.1"
 extism-pdk = "1.0"
-static_assertions = "1.1"
+rmp-serde = "1.1"
+serde = { version = "1", features = ["derive"] }
